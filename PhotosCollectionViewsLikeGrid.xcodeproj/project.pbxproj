@@ -8,20 +8,52 @@
 
 /* Begin PBXBuildFile section */
 		E013AF0B201C1F1B000116DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E013AF0A201C1F1B000116DC /* AppDelegate.swift */; };
-		E013AF0D201C1F1B000116DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E013AF0C201C1F1B000116DC /* ViewController.swift */; };
 		E013AF10201C1F1B000116DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E013AF0E201C1F1B000116DC /* Main.storyboard */; };
 		E013AF12201C1F1B000116DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E013AF11201C1F1B000116DC /* Assets.xcassets */; };
 		E013AF15201C1F1B000116DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E013AF13201C1F1B000116DC /* LaunchScreen.storyboard */; };
+		E013AF1E201C228C000116DC /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E013AF1D201C228C000116DC /* Photo.swift */; };
+		E013AF20201C2E5B000116DC /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E013AF1F201C2E5B000116DC /* HeaderView.swift */; };
+		E013AF22201C2FDA000116DC /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E013AF21201C2FDA000116DC /* PhotoCell.swift */; };
+		E013AF24201C3114000116DC /* PhotosCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E013AF23201C3114000116DC /* PhotosCollectionViewController.swift */; };
+		E013AF26201C3466000116DC /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E013AF25201C3466000116DC /* DetailViewController.swift */; };
+		E0B55AC2201C4A990070F5EE /* Simulator Screen Shot - iPhone 6s - 2018-01-26 at 21.41.56.png in Resources */ = {isa = PBXBuildFile; fileRef = E0B55AC0201C4A3F0070F5EE /* Simulator Screen Shot - iPhone 6s - 2018-01-26 at 21.41.56.png */; };
+		E0B55AC3201C4A990070F5EE /* Simulator Screen Shot - iPhone 6s - 2018-01-26 at 21.41.37.png in Resources */ = {isa = PBXBuildFile; fileRef = E0B55AC1201C4A970070F5EE /* Simulator Screen Shot - iPhone 6s - 2018-01-26 at 21.41.37.png */; };
+		E0B55AC6201C4DFA0070F5EE /* Simulator Screen Shot - iPhone 6s - 2018-01-26 at 21.54.25.png in Resources */ = {isa = PBXBuildFile; fileRef = E0B55AC4201C4DE20070F5EE /* Simulator Screen Shot - iPhone 6s - 2018-01-26 at 21.54.25.png */; };
+		E0B55AC7201C4DFA0070F5EE /* Simulator Screen Shot - iPhone 6s - 2018-01-26 at 21.42.29.png in Resources */ = {isa = PBXBuildFile; fileRef = E0B55AC5201C4DF80070F5EE /* Simulator Screen Shot - iPhone 6s - 2018-01-26 at 21.42.29.png */; };
+		E0B55ACD201C4FC70070F5EE /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B55ACC201C4FC70070F5EE /* Comment.swift */; };
+		E0B55ACF201C55BF0070F5EE /* DetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B55ACE201C55BF0070F5EE /* DetailHeaderView.swift */; };
+		E0B55AD1201C56330070F5EE /* CommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B55AD0201C56330070F5EE /* CommentTableViewCell.swift */; };
+		E0B55AD3201C575C0070F5EE /* DetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B55AD2201C575C0070F5EE /* DetailTableViewController.swift */; };
+		E0B55AD5201C5D2F0070F5EE /* ZoomTransitioningDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B55AD4201C5D2F0070F5EE /* ZoomTransitioningDelegate.swift */; };
+		E0D6F960201C70A800EBD9F0 /* Simulator Screen Shot - iPhone 6s - 2018-01-27 at 00.30.29.png in Resources */ = {isa = PBXBuildFile; fileRef = E0D6F95F201C70A500EBD9F0 /* Simulator Screen Shot - iPhone 6s - 2018-01-27 at 00.30.29.png */; };
+		E0D6F962201C70B400EBD9F0 /* Simulator Screen Shot - iPhone 6s - 2018-01-27 at 00.29.41.png in Resources */ = {isa = PBXBuildFile; fileRef = E0D6F961201C70B400EBD9F0 /* Simulator Screen Shot - iPhone 6s - 2018-01-27 at 00.29.41.png */; };
+		E0D6F964201C70BB00EBD9F0 /* Simulator Screen Shot - iPhone 6s - 2018-01-27 at 00.29.57.png in Resources */ = {isa = PBXBuildFile; fileRef = E0D6F963201C70BB00EBD9F0 /* Simulator Screen Shot - iPhone 6s - 2018-01-27 at 00.29.57.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E013AF07201C1F1B000116DC /* PhotosCollectionViewsLikeGrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotosCollectionViewsLikeGrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E013AF0A201C1F1B000116DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E013AF0C201C1F1B000116DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E013AF0F201C1F1B000116DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E013AF11201C1F1B000116DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E013AF14201C1F1B000116DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E013AF16201C1F1B000116DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E013AF1D201C228C000116DC /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		E013AF1F201C2E5B000116DC /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		E013AF21201C2FDA000116DC /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		E013AF23201C3114000116DC /* PhotosCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionViewController.swift; sourceTree = "<group>"; };
+		E013AF25201C3466000116DC /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		E0B55AC0201C4A3F0070F5EE /* Simulator Screen Shot - iPhone 6s - 2018-01-26 at 21.41.56.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 6s - 2018-01-26 at 21.41.56.png"; sourceTree = "<group>"; };
+		E0B55AC1201C4A970070F5EE /* Simulator Screen Shot - iPhone 6s - 2018-01-26 at 21.41.37.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 6s - 2018-01-26 at 21.41.37.png"; sourceTree = "<group>"; };
+		E0B55AC4201C4DE20070F5EE /* Simulator Screen Shot - iPhone 6s - 2018-01-26 at 21.54.25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 6s - 2018-01-26 at 21.54.25.png"; sourceTree = "<group>"; };
+		E0B55AC5201C4DF80070F5EE /* Simulator Screen Shot - iPhone 6s - 2018-01-26 at 21.42.29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 6s - 2018-01-26 at 21.42.29.png"; sourceTree = "<group>"; };
+		E0B55ACC201C4FC70070F5EE /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		E0B55ACE201C55BF0070F5EE /* DetailHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailHeaderView.swift; sourceTree = "<group>"; };
+		E0B55AD0201C56330070F5EE /* CommentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentTableViewCell.swift; sourceTree = "<group>"; };
+		E0B55AD2201C575C0070F5EE /* DetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewController.swift; sourceTree = "<group>"; };
+		E0B55AD4201C5D2F0070F5EE /* ZoomTransitioningDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomTransitioningDelegate.swift; sourceTree = "<group>"; };
+		E0D6F95F201C70A500EBD9F0 /* Simulator Screen Shot - iPhone 6s - 2018-01-27 at 00.30.29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 6s - 2018-01-27 at 00.30.29.png"; sourceTree = "<group>"; };
+		E0D6F961201C70B400EBD9F0 /* Simulator Screen Shot - iPhone 6s - 2018-01-27 at 00.29.41.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 6s - 2018-01-27 at 00.29.41.png"; sourceTree = "<group>"; };
+		E0D6F963201C70BB00EBD9F0 /* Simulator Screen Shot - iPhone 6s - 2018-01-27 at 00.29.57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 6s - 2018-01-27 at 00.29.57.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,13 +86,12 @@
 		E013AF09201C1F1B000116DC /* PhotosCollectionViewsLikeGrid */ = {
 			isa = PBXGroup;
 			children = (
-				E013AF1C201C1F55000116DC /* Model */,
-				E013AF0A201C1F1B000116DC /* AppDelegate.swift */,
-				E013AF0C201C1F1B000116DC /* ViewController.swift */,
-				E013AF0E201C1F1B000116DC /* Main.storyboard */,
-				E013AF11201C1F1B000116DC /* Assets.xcassets */,
-				E013AF13201C1F1B000116DC /* LaunchScreen.storyboard */,
 				E013AF16201C1F1B000116DC /* Info.plist */,
+				E013AF1C201C1F55000116DC /* Model */,
+				E0B55ACA201C4EEE0070F5EE /* OtherStuff */,
+				E0B55ACB201C4F060070F5EE /* Controllers */,
+				E0B55AC8201C4E860070F5EE /* SnapShots */,
+				E0B55AC9201C4EB40070F5EE /* Views */,
 			);
 			path = PhotosCollectionViewsLikeGrid;
 			sourceTree = "<group>";
@@ -68,8 +99,57 @@
 		E013AF1C201C1F55000116DC /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				E013AF1D201C228C000116DC /* Photo.swift */,
+				E0B55ACC201C4FC70070F5EE /* Comment.swift */,
+				E0B55AD4201C5D2F0070F5EE /* ZoomTransitioningDelegate.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		E0B55AC8201C4E860070F5EE /* SnapShots */ = {
+			isa = PBXGroup;
+			children = (
+				E0D6F963201C70BB00EBD9F0 /* Simulator Screen Shot - iPhone 6s - 2018-01-27 at 00.29.57.png */,
+				E0D6F961201C70B400EBD9F0 /* Simulator Screen Shot - iPhone 6s - 2018-01-27 at 00.29.41.png */,
+				E0D6F95F201C70A500EBD9F0 /* Simulator Screen Shot - iPhone 6s - 2018-01-27 at 00.30.29.png */,
+				E0B55AC5201C4DF80070F5EE /* Simulator Screen Shot - iPhone 6s - 2018-01-26 at 21.42.29.png */,
+				E0B55AC4201C4DE20070F5EE /* Simulator Screen Shot - iPhone 6s - 2018-01-26 at 21.54.25.png */,
+				E0B55AC0201C4A3F0070F5EE /* Simulator Screen Shot - iPhone 6s - 2018-01-26 at 21.41.56.png */,
+				E0B55AC1201C4A970070F5EE /* Simulator Screen Shot - iPhone 6s - 2018-01-26 at 21.41.37.png */,
+			);
+			path = SnapShots;
+			sourceTree = "<group>";
+		};
+		E0B55AC9201C4EB40070F5EE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E013AF21201C2FDA000116DC /* PhotoCell.swift */,
+				E013AF1F201C2E5B000116DC /* HeaderView.swift */,
+				E013AF0E201C1F1B000116DC /* Main.storyboard */,
+				E0B55ACE201C55BF0070F5EE /* DetailHeaderView.swift */,
+				E0B55AD0201C56330070F5EE /* CommentTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E0B55ACA201C4EEE0070F5EE /* OtherStuff */ = {
+			isa = PBXGroup;
+			children = (
+				E013AF0A201C1F1B000116DC /* AppDelegate.swift */,
+				E013AF11201C1F1B000116DC /* Assets.xcassets */,
+				E013AF13201C1F1B000116DC /* LaunchScreen.storyboard */,
+			);
+			path = OtherStuff;
+			sourceTree = "<group>";
+		};
+		E0B55ACB201C4F060070F5EE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E013AF23201C3114000116DC /* PhotosCollectionViewController.swift */,
+				E013AF25201C3466000116DC /* DetailViewController.swift */,
+				E0B55AD2201C575C0070F5EE /* DetailTableViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,9 +211,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0D6F964201C70BB00EBD9F0 /* Simulator Screen Shot - iPhone 6s - 2018-01-27 at 00.29.57.png in Resources */,
 				E013AF15201C1F1B000116DC /* LaunchScreen.storyboard in Resources */,
+				E0B55AC7201C4DFA0070F5EE /* Simulator Screen Shot - iPhone 6s - 2018-01-26 at 21.42.29.png in Resources */,
+				E0B55AC6201C4DFA0070F5EE /* Simulator Screen Shot - iPhone 6s - 2018-01-26 at 21.54.25.png in Resources */,
+				E0D6F960201C70A800EBD9F0 /* Simulator Screen Shot - iPhone 6s - 2018-01-27 at 00.30.29.png in Resources */,
 				E013AF12201C1F1B000116DC /* Assets.xcassets in Resources */,
+				E0B55AC3201C4A990070F5EE /* Simulator Screen Shot - iPhone 6s - 2018-01-26 at 21.41.37.png in Resources */,
+				E0D6F962201C70B400EBD9F0 /* Simulator Screen Shot - iPhone 6s - 2018-01-27 at 00.29.41.png in Resources */,
 				E013AF10201C1F1B000116DC /* Main.storyboard in Resources */,
+				E0B55AC2201C4A990070F5EE /* Simulator Screen Shot - iPhone 6s - 2018-01-26 at 21.41.56.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,8 +231,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E013AF0D201C1F1B000116DC /* ViewController.swift in Sources */,
+				E0B55ACF201C55BF0070F5EE /* DetailHeaderView.swift in Sources */,
+				E013AF1E201C228C000116DC /* Photo.swift in Sources */,
+				E013AF22201C2FDA000116DC /* PhotoCell.swift in Sources */,
+				E013AF24201C3114000116DC /* PhotosCollectionViewController.swift in Sources */,
+				E0B55AD1201C56330070F5EE /* CommentTableViewCell.swift in Sources */,
+				E0B55ACD201C4FC70070F5EE /* Comment.swift in Sources */,
+				E0B55AD3201C575C0070F5EE /* DetailTableViewController.swift in Sources */,
+				E0B55AD5201C5D2F0070F5EE /* ZoomTransitioningDelegate.swift in Sources */,
 				E013AF0B201C1F1B000116DC /* AppDelegate.swift in Sources */,
+				E013AF20201C2E5B000116DC /* HeaderView.swift in Sources */,
+				E013AF26201C3466000116DC /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
